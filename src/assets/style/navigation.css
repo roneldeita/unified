@@ -1,0 +1,18 @@
+.navbar,
+.navbar-default{
+  background-image: none !important;
+  background-color: #000000 !important;
+  border:none;
+  padding: 5px 0;
+}
+.navbar-nav li a{
+  color: #ffffff !important;
+}
+.navigation{
+ border-radius: 0px !important;
+}
+.logo{
+  margin-top: -13px;
+  width:45px;
+  display: inline;
+}
