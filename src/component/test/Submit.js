@@ -9,7 +9,7 @@ export default class Submit extends React.Component{
   }
 
   submitButton(e){
-    console.log(e);
+    console.log(this.props);
     this.props.history.push('/');
     e.preventDefault();
   }

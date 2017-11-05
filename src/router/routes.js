@@ -2,10 +2,12 @@ import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import Navigation from '../component/template/Navigation.js'
 //components
-import Home from './../component/Home';
-import About from './../component/About';
-import NoMatch from './../component/NoMatch';
-import Submit from './../component/test/Submit';
+import Home from './../component/Home'
+import About from './../component/About'
+import NoMatch from './../component/NoMatch'
+import Submit from './../component/test/Submit'
+
+import Todos from './../component/todo/Todos'
 
 import createBrowserHistory from 'history/lib/createBrowserHistory'
 const history = createBrowserHistory();
@@ -18,6 +20,7 @@ const Router =
       <Route exact path="/" component={Home} />
       <Route path="/about" component={About} />
       <Route path="/submit" component={Submit} history={history} />
+      <Route path="/todos" component={Todos}/>
       <Route component={NoMatch}/>
     </Switch>
   </div>
