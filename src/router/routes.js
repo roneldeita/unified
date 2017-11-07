@@ -15,11 +15,11 @@ const history = createBrowserHistory();
 const Router =
 <BrowserRouter>
   <div>
-    <Navigation/>
+    <Navigation history={history} />
     <Switch>
       <Route exact path="/" component={Home} />
       <Route path="/about" component={About} />
-      <Route path="/submit" component={Submit} history={history} />
+      <Route path="/submit" component={Submit} />
       <Route path="/todos" component={Todos}/>
       <Route component={NoMatch}/>
     </Switch>
