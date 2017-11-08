@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
-import Logo from '../../assets/images/UPS-Logo_Rasterize.png'
+import Logo from '../../assets/images/UPS_Logo.png'
 import '../../assets/style/navigation.css'
 
 export default class Navigation extends React.Component{
@@ -24,13 +24,14 @@ export default class Navigation extends React.Component{
             </div>
             <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul className="nav navbar-nav navbar-right">
-                <li><Link to="/">Login</Link></li>
+                <li><Link className="btn btn-success" to="/">Login</Link></li>
                 <li><Link to="/">Register</Link></li>
               </ul>
               <ul className="nav navbar-nav navbar-right">
                 <li><NavLink exact activeClassName="active" to="/">Home</NavLink></li>
                 <li><NavLink activeClassName="active" to="/about">About</NavLink></li>
                 <li><NavLink activeClassName="active" to="/todos">Todos</NavLink></li>
+                <li><NavLink activeClassName="active" to="/tictactoe">Tic-Tac-Toe</NavLink></li>
               </ul>
             </div>
           </div>
