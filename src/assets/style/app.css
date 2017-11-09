@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+@font-face {
+  font-family: 'DharmaGothic';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../../assets/fonts/dharma-ghotic/DharmaGothicE_Light_I.otf') format('truetype');
+}
 body {
   margin: 0px 0 0 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .border{
   border: 1px solid #000000

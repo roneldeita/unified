@@ -1,6 +1,30 @@
-.cover{
+.cover-container{
   background-image: url('../../assets/images/Header_Image-01.jpg');
   background-repeat: no-repeat;
-  background-size:100% auto;
-  height: 600px;
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+}
+.cover{
+  margin-top: 100px;
+}
+.cover-vid{
+  top: 40px;
+}
+.cover-vid iframe{
+  border:3px solid #ffffff;
+  border-radius: 5px;
+}
+p.slogan{
+  font-size: 60px;
+  line-height: 60px;
+  font-family: 'DharmaGothic', sans-serif;
+  color: #ffffff
+}
+p.slogan-sub{
+  color: #ffffff
+}
+
+.icon{
+    height: 90px;
 }

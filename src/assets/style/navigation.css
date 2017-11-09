@@ -3,16 +3,28 @@
   background-color: transparent !important;
   border:none;
   border-bottom: 1px solid #ffffff;
-  padding: 5px 0;
+  padding: 0;
+  -webkit-transition: background-color 1s; /* For Safari 3.1 to 6.0 */
+  transition: background-color 1s;
+}
+
+.navbar-default:hover,
+.navbar-default-active{
+  background-color: #192321 !important;
+  border-bottom: 0px solid #ffffff;
+  -webkit-transition: background-color 1s; /* For Safari 3.1 to 6.0 */
+  transition: background-color 1s;
 }
 .navbar-nav > li > a{
   color: #ffffff  !important;
+  font-weight:bold;
+  font-size: 12px;
 }
 /*.activeNav{
   color:yellow !important;
 }*/
 .navbar-nav > li > a.active {
-  color: yellow !important;
+  border-bottom: 1px solid #ffffff
 }
 .navigation{
  border-radius: 0px;
@@ -24,5 +36,23 @@
 }
 .space{
   display: inline-block;
-  width:50px;
+  width:80px;
+}
+
+.btn.btn-login,
+.btn.btn-login:hover {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  padding: 2px 30px;
+  margin:13px 0 0 0 ;
+  border-radius: 15px;
+  border:0px;
+}
+
+.btn.btn-learn-more{
+  background-color: transparent !important;
+  border:1px solid #ffffff;
+  padding: 3px 50px;
+  color: #ffffff !important;
+  border-radius: 15px;
 }
