@@ -24,10 +24,11 @@
   color:yellow !important;
 }*/
 .navbar-nav > li > a.active {
-  border-bottom: 1px solid #ffffff
+  border-bottom: 1px solid #ffffff;
+  background-color: transparent !important;
 }
 .navigation{
- border-radius: 0px;
+  border-radius: 0px;
 }
 .logo{
   margin-top: -10px;

@@ -18,8 +18,6 @@ export default class Navigation extends React.Component{
   handleScroll(){
     var scrollX = window.pageYOffset;
     const Navclass = scrollX <= 50 ? 'navbar-default' : 'navbar-default-active';
-    console.log(scrollX);
-    console.log(Navclass);
     this.setState({navClass:Navclass})
   }
 
