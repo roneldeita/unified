@@ -23,7 +23,8 @@
 /*.activeNav{
   color:yellow !important;
 }*/
-.navbar-nav > li > a.active {
+.navbar-nav > li > a.active,
+.navbar-nav > li > a:hover {
   border-bottom: 1px solid #ffffff;
   background-color: transparent !important;
 }

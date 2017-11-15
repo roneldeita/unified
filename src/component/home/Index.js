@@ -3,15 +3,17 @@ import '../../assets/style/home.css'
 import Icon1 from '../../assets/images/Payments.png'
 import Icon2 from '../../assets/images/Business.png'
 import Icon3 from '../../assets/images/Cashless.png'
-import Bpi from '../../assets/images/partners/BPI.png'
+import PaymentPartners from '../../component/home/PaymentPartners'
+import AirlinePartners from '../../component/home/AirlinePartners'
 
 export default class Index extends React.Component{
 
   render(){
-    const partnerIcons = {
-      height:'30px'
-    };
-
+    const hr = {
+      borderTop: 2,
+      borderStyle: 'solid',
+      borderColor: '#dddddd'
+    }
     return(
       <div>
         <div className="container-fluid cover-container">
@@ -88,7 +90,23 @@ export default class Index extends React.Component{
                     <p>We are partnering with the most trusted bills payment and remmitance service providersensure every transaction is fast, smooth and hastle free.</p>
                   </div>
                   <div className="col-md-9">
-                    <img src={Bpi} alt="BPI" style={partnerIcons} />
+                    <PaymentPartners></PaymentPartners>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="row" style={{marginTop:60, marginBottom:60}}>
+              <div className="col-md-offset-1 col-md-10 text-center"><hr style={hr} /></div>
+            </div>
+            <div className="row">
+              <div className="col-md-offset-1 col-md-10 text-center">
+                <div className="row">
+                  <div className="col-md-3 text-left">
+                    <h4><b>Airline Partners</b></h4><br />
+                    <p>Domistic and International partners. We are credited partners with more than 300 plus airlines accross the globe to get you to wherever you need to be.</p>
+                  </div>
+                  <div className="col-md-9">
+                    <AirlinePartners></AirlinePartners>
                   </div>
                 </div>
               </div>
