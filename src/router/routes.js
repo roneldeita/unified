@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import Navigation from '../component/template/Navigation.js'
+import Footer from '../component/template/Footer.js'
 //components
 import Home from '../component/home/Index'
 import About from './../component/About'
@@ -25,6 +26,7 @@ const Router =
       <Route path="/tictactoe" component={TicTacToe}/>
       <Route component={NoMatch}/>
     </Switch>
+    <Footer />
   </div>
 </BrowserRouter>
 

@@ -28,3 +28,19 @@ p.slogan-sub{
 .icon{
     height: 90px;
 }
+
+.btn.btn-transparent-circular{
+  background-color: transparent !important;
+  border:1px solid #ffffff;
+  padding: 3px 50px;
+  color: #ffffff !important;
+  border-radius: 15px;
+}
+
+.btn.btn-blue-circular{
+  background-color: #002b80 !important;
+  border:1px solid #ffffff;
+  padding: 0px 70px 9px 70px;
+  color: #ffffff !important;
+  border-radius: 50px;
+}

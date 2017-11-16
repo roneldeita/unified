@@ -5,6 +5,9 @@ import Icon2 from '../../assets/images/Business.png'
 import Icon3 from '../../assets/images/Cashless.png'
 import PaymentPartners from '../../component/home/PaymentPartners'
 import AirlinePartners from '../../component/home/AirlinePartners'
+import IATA from '../../assets/images/partners/IATA.png'
+import IpadBentanayan from '../../assets/images/bentanayan/Ipad_Bentanayan.png'
+import BentanayanLogo from '../../assets/images/bentanayan/Bentanayan_logo_white.png'
 
 export default class Index extends React.Component{
 
@@ -32,7 +35,7 @@ export default class Index extends React.Component{
                   All from your mobile phone!
                   </p>
                   <br />
-                  <a href="/" className="btn btn-learn-more">Learn More</a>
+                  <a href="/" className="btn btn-transparent-circular">Learn More</a>
               </div>
               <div className="col-sm-12 col-md-5 cover-vid" style={{padding:0}}>
                 <iframe width="400" height="227" title="Unified Video" className="pull-right" src="https://www.youtube.com/embed/4Zqjtqntx8Q?controls=0" frameBorder="0" gesture="media" allowFullScreen></iframe>
@@ -40,7 +43,7 @@ export default class Index extends React.Component{
             </div>
           </div>
         </div>
-        <div className="container-fluid" style={{backgroundColor:"#FFFFFF", color:"#1F354F"}}>
+        <div className="container-fluid" style={{color:"#1F354F"}}>
           <div className="container" style={{marginTop:60, marginBottom:60}}>
             <div className="row">
               <div className="col-md-12 text-center">
@@ -98,18 +101,49 @@ export default class Index extends React.Component{
             <div className="row" style={{marginTop:60, marginBottom:60}}>
               <div className="col-md-offset-1 col-md-10 text-center"><hr style={hr} /></div>
             </div>
-            <div className="row">
+            <div className="row" style={{marginBottom:180}}>
               <div className="col-md-offset-1 col-md-10 text-center">
                 <div className="row">
-                  <div className="col-md-3 text-left">
-                    <h4><b>Airline Partners</b></h4><br />
-                    <p>Domistic and International partners. We are credited partners with more than 300 plus airlines accross the globe to get you to wherever you need to be.</p>
+                  <div className="col-md-3">
+                    <h4 className="text-left"><b>Airline Partners</b></h4><br />
+                    <p className="text-left">Domistic and International partners. We are credited partners with more than 300 plus airlines accross the globe to get you to wherever you need to be.</p>
+                    <img className="text-center" src={IATA} alt="IATA" style={{width:180}} />
                   </div>
                   <div className="col-md-9">
                     <AirlinePartners></AirlinePartners>
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+        <div className="container-fluid" style={{color:"#1F354F", backgroundColor:'#002b80'}}>
+          <div className="container" style={{marginBottom:80}}>
+            <div className="col-md-12">
+              <img src={IpadBentanayan} alt="IpadBentanayan" className="img-responsive center-block" style={{width:550, marginTop:-130, marginBottom:50}} />
+            </div>
+            <div className="row">
+              <div className="col-md-offset-1 col-md-10 text-center">
+                <div className="row">
+                  <div className="col-md-6 text-left" style={{color:'#ffffff'}}>
+                    <h1><b>Shop online endlessly.</b></h1>
+                    <h1><b>Sell your product</b></h1>
+                    <h1><b>securely.</b></h1>
+                  </div>
+                  <div className="col-md-6">
+                    <img className="img-responsive center-block" src={BentanayanLogo} alt="Bentanayan-logo" style={{width:400}} />
+                    <a href="https://bentanayan.com" rel="noopener noreferrer" target="_blank" className="btn btn-transparent-circular">Go to bentanayan.com</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="container-fluid" style={{color:"#1F354F"}}>
+          <div className="container" style={{marginTop:120, marginBottom:120}}>
+            <div className="col-md-12 text-center">
+              <h1><b>Interested in Unified Products and Services?</b></h1><br/><br/>
+              <a href="/" className="btn btn-blue-circular"><h3>See Unified Packages Now!</h3></a>
             </div>
           </div>
         </div>
