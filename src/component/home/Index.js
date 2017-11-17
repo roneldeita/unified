@@ -46,7 +46,7 @@ export default class Index extends React.Component{
         <div className="container" style={{marginTop:60, marginBottom:60}}>
           <div className="row">
             <div className="col-md-12 text-center">
-              <h1 style={{marginBottom:70}}><b>Why use Unified?</b></h1>
+              <h1 style={{marginBottom:70}}>Why use Unified?</h1>
             </div>
             <div className="col-md-offset-1 col-md-10 text-center">
               <div className="row">
@@ -81,7 +81,7 @@ export default class Index extends React.Component{
         <div className="container" style={{marginTop:60, marginBottom:60}}>
           <div className="row">
             <div className="col-md-12 text-center">
-              <h1 style={{marginBottom:70}}><b>From booking online to sending payments,<br /> we got everything.</b></h1>
+              <h1 style={{marginBottom:70}}>From booking online to sending payments,<br /> we got everything.</h1>
             </div>
             <div className="col-md-offset-1 col-md-10 text-center">
               <div className="row">
@@ -122,9 +122,9 @@ export default class Index extends React.Component{
               <div className="col-md-offset-1 col-md-10 text-center">
                 <div className="row">
                   <div className="col-md-6 text-left" style={{color:'#ffffff'}}>
-                    <h1><b>Shop online endlessly.</b></h1>
-                    <h1><b>Sell your product</b></h1>
-                    <h1><b>securely.</b></h1>
+                    <h1>Shop online endlessly.</h1>
+                    <h1>Sell your product</h1>
+                    <h1>securely.</h1>
                   </div>
                   <div className="col-md-6">
                     <img className="img-responsive center-block" src={BentanayanLogo} alt="Bentanayan-logo" style={{width:400}} />
@@ -137,7 +137,7 @@ export default class Index extends React.Component{
         </div>
         <div className="container" style={{marginTop:120, marginBottom:120}}>
           <div className="col-md-12 text-center">
-            <h1><b>Interested in Unified Products and Services?</b></h1><br/><br/>
+            <h1>Interested in Unified Products and Services?</h1><br/><br/>
             <a href="/" className="btn btn-blue-circular"><h3>See Unified Packages Now!</h3></a>
           </div>
         </div>

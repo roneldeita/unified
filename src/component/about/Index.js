@@ -47,9 +47,9 @@ export default class About extends React.Component{
             <div className="col-md-offset-1 col-md-10 text-center">
               <p className="title">Values</p>
               <br />
-              <h3><b>Service & Product Excellence</b></h3>
-              <h3><b>People Oriented</b></h3>
-              <h3><b>Unity</b></h3>
+              <h3>Service & Product Excellence</h3>
+              <h3>People Oriented</h3>
+              <h3>Unity</h3>
             </div>
           </div>
         </div>
@@ -64,12 +64,12 @@ export default class About extends React.Component{
                 <div className="col-md-4">
                   <img src={Logo} className="img-responsive img-circle" alt="logo" />
                   <h3><b>Emmanuel Pascual</b></h3>
-                  <h4><b>Founder & CEO</b></h4>
+                  <h4>Founder & CEO</h4>
                 </div>
                 <div className="col-md-4">
                   <img src={Logo} className="img-responsive img-circle" alt="logo" />
-                  <h3><b>Farrah Pascual</b></h3>
-                  <h4><b>Finance</b></h4>
+                  <h3>Farrah Pascual</h3>
+                  <h4>Finance</h4>
                 </div>
                 <div className="col-md-4">
                   <img src={Logo} className="img-responsive img-circle" alt="logo" />

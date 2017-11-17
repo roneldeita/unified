@@ -11,13 +11,14 @@
   border:1px solid #dddddd;
 }
 .footer  .nav-pills li a{
+  font-family: 'RobotoBold', sans-serif;
   padding:0px;
   margin: 8px 20px 8px 0px;
   color: #1F354F;
+  font-weight: bold;
 }
 .footer .nav-pills li a:hover{
   background-color: transparent !important;
-  font-weight: bold;
 }
 .footer .logo{
   width: 65px
