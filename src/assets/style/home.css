@@ -1,35 +1,38 @@
-.cover-container{
+.home{
+  color: #1F354F
+}
+.home .cover-container{
   background-image: url('../../assets/images/Header_Image-01.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   min-height: 500px;
 }
-.cover{
+.home .cover{
   margin-top: 100px;
 }
-.cover-vid{
+.home .cover-vid{
   top: 40px;
 }
-.cover-vid iframe{
+.home .cover-vid iframe{
   border:3px solid #ffffff;
   border-radius: 5px;
 }
-p.slogan{
+.home p.slogan{
   font-size: 60px;
   line-height: 60px;
   font-family: 'DharmaGothic', sans-serif;
   color: #ffffff
 }
-p.slogan-sub{
+.home p.slogan-sub{
   color: #ffffff
 }
 
-.icon{
+.home .icon{
     height: 90px;
 }
 
-.btn.btn-transparent-circular{
+.home .btn.btn-transparent-circular{
   background-color: transparent !important;
   border:1px solid #ffffff;
   padding: 3px 50px;
@@ -37,7 +40,7 @@ p.slogan-sub{
   border-radius: 15px;
 }
 
-.btn.btn-blue-circular{
+.home .btn.btn-blue-circular{
   background-color: #002b80 !important;
   border:1px solid #ffffff;
   padding: 0px 70px 9px 70px;

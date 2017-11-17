@@ -28,6 +28,9 @@
   border-bottom: 1px solid #ffffff;
   background-color: transparent !important;
 }
+.navbar-nav > li > a.space:hover{
+  border-bottom: none;
+}
 .navigation{
   border-radius: 0px;
 }

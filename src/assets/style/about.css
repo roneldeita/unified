@@ -1,0 +1,39 @@
+.about{
+  color: #1F354F
+}
+.about .cover-container{
+  background-image: url('../../assets/images/Header_Image_About-01.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+}
+.about .cover{
+  margin-top: 100px;
+}
+
+.about p.slogan{
+  margin-top: 110px;
+  font-size: 60px;
+  line-height: 60px;
+  font-family: 'DharmaGothic', sans-serif;
+  color: #ffffff
+}
+.about .history{
+  text-align: justify;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.about .title{
+  font-weight: bold;
+  font-size: 38px;
+}
+
+.about .img-circle{
+  max-width:250px;
+  height:250px;
+  margin: 0 auto;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}

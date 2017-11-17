@@ -1,10 +1,13 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
-import Navigation from '../component/template/Navigation.js'
-import Footer from '../component/template/Footer.js'
+//common styling
+import '../assets/style/app.css'
+//templates
+import Navigation from '../component/template/Navigation'
+import Footer from '../component/template/Footer'
 //components
 import Home from '../component/home/Index'
-import About from './../component/About'
+import About from './../component/about/Index'
 import NoMatch from './../component/NoMatch'
 import Submit from './../component/test/Submit'
 
