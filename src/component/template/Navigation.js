@@ -43,8 +43,8 @@ export default class Navigation extends React.Component{
                   </ul>
                   <ul className="nav navbar-nav navbar-right">
                     <li><NavLink exact activeClassName="active" to="/">HOME</NavLink></li>
-                    <li><NavLink activeClassName="active" to="/a">PRODUCTS</NavLink></li>
-                    <li><NavLink activeClassName="active" to="/b">SERVICES</NavLink></li>
+                    <li><NavLink activeClassName="active" to="/products-and-services">PRODUCTS & SERVICES</NavLink></li>
+                    {/* <li><NavLink activeClassName="active" to="/b">SERVICES</NavLink></li>*/}
                     <li><NavLink activeClassName="active" to="/about">ABOUT</NavLink></li>
                     <li><NavLink activeClassName="active" to="/c">CONTACT</NavLink></li>
                     {/*<li><NavLink activeClassName="active" to="/todos">Todos</NavLink></li>

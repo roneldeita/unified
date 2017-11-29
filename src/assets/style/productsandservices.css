@@ -1,0 +1,50 @@
+.producs-and-services{
+  color: #1F354F
+}
+.producs-and-services .cover-container{
+  background-image: url('../../assets/images/Header_Image_Products-01.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+}
+
+.producs-and-services .bills-payment-cover{
+  background-image: url('../../assets/images/Bills_Payment-01.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+}
+.producs-and-services .cover{
+  margin-top: 100px;
+}
+
+.producs-and-services p.slogan{
+  margin-top: 110px;
+  font-size: 60px;
+  line-height: 60px;
+  font-family: 'DharmaGothicLight', sans-serif;
+  color: #ffffff
+}
+
+.producs-and-services .dealer-icon{
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.producs-and-services .btn-blue-circular{
+  background-color: #000000 !important;
+  border:1px solid #ffffff;
+  padding: 8px 90px 0px 90px;
+  color: #ffffff !important;
+  border-radius: 50px;
+}
+
+.producs-and-services .btn-blue-circular p{
+  font-size: 20px;
+}
+.producs-and-services .bills-payment-cover h1{
+  font-family: 'Roboto'
+}

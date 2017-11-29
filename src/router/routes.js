@@ -7,6 +7,7 @@ import Navigation from '../component/template/Navigation'
 import Footer from '../component/template/Footer'
 //components
 import Home from '../component/home/Index'
+import ProductsAndServices from '../component/productsandservices/Index'
 import About from './../component/about/Index'
 import NoMatch from './../component/NoMatch'
 import Submit from './../component/test/Submit'
@@ -23,6 +24,7 @@ const Router =
     <Navigation history={history} />
     <Switch>
       <Route exact path="/" component={Home} />
+      <Route path="/products-and-services" component={ProductsAndServices} />
       <Route path="/about" component={About} />
       <Route path="/submit" component={Submit} />
       <Route path="/todos" component={Todos}/>

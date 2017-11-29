@@ -27,7 +27,7 @@ export default class Index extends React.Component{
                   financial freedom and <br />
                   economic stability.</p>
                   <br />
-                  <p className="slogan-sub">
+                  <p className="slogan-sub" style={{fontWeight:200}}>
                   UPS offers services that you cannot avail from anyone else.<br />
                   With Unified Producs and Services you can buy load,<br />
                   pay your bills, book flights online, shopping all day<br />
@@ -35,7 +35,7 @@ export default class Index extends React.Component{
                   All from your mobile phone!
                   </p>
                   <br />
-                  <a href="/" className="btn btn-transparent-circular">Learn More</a>
+                  <a href="/" className="btn btn-transparent-circular" style={{fontWeight:200}}>Learn More</a>
               </div>
               <div className="col-sm-12 col-md-5 cover-vid" style={{padding:0}}>
                 <iframe width="400" height="227" title="Unified Video" className="pull-right" src="https://www.youtube.com/embed/4Zqjtqntx8Q?controls=0" frameBorder="0" gesture="media" allowFullScreen></iframe>
@@ -43,36 +43,38 @@ export default class Index extends React.Component{
             </div>
           </div>
         </div>
-        <div className="container" style={{marginTop:60, marginBottom:60}}>
-          <div className="row">
-            <div className="col-md-12 text-center">
-              <h1 style={{marginBottom:70}}>Why use Unified?</h1>
-            </div>
-            <div className="col-md-offset-1 col-md-10 text-center">
-              <div className="row">
-                <div className=" col-md-4">
-                  <img alt="icon 1" src={Icon1} className="icon" />
-                  <h4 style={{marginTop:20, marginBottom:20}}><b>You can pay derictly anywhere</b></h4>
-                  <p>
-                    Access a global set of users and customers.<br />
-                    Ups is available locally and internationally.
-                  </p>
-                </div>
-                <div className="col-md-4">
-                  <img alt="icon 2" src={Icon2} className="icon" />
-                  <h4 style={{marginTop:20, marginBottom:20}}><b>Trusted business nationwide</b></h4>
-                  <p>
-                    With over 300,000 daily active users<br />
-                    choose and and trust Unified.
-                  </p>
-                </div>
-                <div className="col-md-4">
-                  <img alt="icon 3" src={Icon3} className="icon" />
-                  <h4 style={{marginTop:20, marginBottom:20}}><b>Cashless payments</b></h4>
-                  <p>
-                    You can get paid directly of your services<br />
-                    without using any physical money.
-                  </p>
+        <div className="container-fluid" style={{backgroundColor:'#EEF5F9'}}>
+          <div className="container" style={{marginTop:60, marginBottom:60}}>
+            <div className="row">
+              <div className="col-md-12 text-center">
+                <h1 style={{marginBottom:70, fontWeight:300}}>Why use Unified?</h1>
+              </div>
+              <div className="col-md-offset-1 col-md-10 text-center">
+                <div className="row">
+                  <div className=" col-md-4">
+                    <img alt="icon 1" src={Icon1} className="icon" />
+                    <h4 style={{marginTop:20, marginBottom:20, fontWeight:400}}>You can pay derictly anywhere</h4>
+                    <p>
+                      Access a global set of users and customers.<br />
+                      Ups is available locally and internationally.
+                    </p>
+                  </div>
+                  <div className="col-md-4">
+                    <img alt="icon 2" src={Icon2} className="icon" />
+                    <h4 style={{marginTop:20, marginBottom:20, fontWeight:400}}>Trusted business nationwide</h4>
+                    <p>
+                      With over 300,000 daily active users<br />
+                      choose and and trust Unified.
+                    </p>
+                  </div>
+                  <div className="col-md-4">
+                    <img alt="icon 3" src={Icon3} className="icon" />
+                    <h4 style={{marginTop:20, marginBottom:20, fontWeight:400}}>Cashless payments</h4>
+                    <p>
+                      You can get paid directly of your services<br />
+                      without using any physical money.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -81,12 +83,12 @@ export default class Index extends React.Component{
         <div className="container" style={{marginTop:60, marginBottom:60}}>
           <div className="row">
             <div className="col-md-12 text-center">
-              <h1 style={{marginBottom:70}}>From booking online to sending payments,<br /> we got everything.</h1>
+              <h1 style={{marginBottom:70, fontWeight:300}}>From booking online to sending payments,<br /> we got everything.</h1>
             </div>
             <div className="col-md-offset-1 col-md-10 text-center">
               <div className="row">
                 <div className="col-md-3 text-left">
-                  <h4><b>Payment Partners</b></h4><br />
+                  <h4 style={{fontWeight:400}}>Payment Partners</h4><br />
                   <p>We are partnering with the most trusted bills payment and remmitance service providersensure every transaction is fast, smooth and hastle free.</p>
                 </div>
                 <div className="col-md-9">
@@ -102,7 +104,7 @@ export default class Index extends React.Component{
             <div className="col-md-offset-1 col-md-10 text-center">
               <div className="row">
                 <div className="col-md-3">
-                  <h4 className="text-left"><b>Airline Partners</b></h4><br />
+                  <h4 style={{fontWeight:400}} className="text-left">Airline Partners</h4><br />
                   <p className="text-left">Domistic and International partners. We are credited partners with more than 300 plus airlines accross the globe to get you to wherever you need to be.</p>
                   <img className="text-center" src={IATA} alt="IATA" style={{width:180}} />
                 </div>
@@ -113,7 +115,7 @@ export default class Index extends React.Component{
             </div>
           </div>
         </div>
-        <div className="container-fluid" style={{backgroundColor:'#002b80'}}>
+        <div className="container-fluid bg-u-dark">
           <div className="container" style={{marginBottom:80}}>
             <div className="row">
               <div className="col-md-12">
@@ -122,13 +124,13 @@ export default class Index extends React.Component{
               <div className="col-md-offset-1 col-md-10 text-center">
                 <div className="row">
                   <div className="col-md-6 text-left" style={{color:'#ffffff'}}>
-                    <h1>Shop online endlessly.</h1>
-                    <h1>Sell your product</h1>
-                    <h1>securely.</h1>
+                    <h1 style={{fontWeight:200}}>Shop online endlessly.</h1>
+                    <h1 style={{fontWeight:200}}>Sell your product</h1>
+                    <h1 style={{fontWeight:200}}>securely.</h1>
                   </div>
                   <div className="col-md-6">
                     <img className="img-responsive center-block" src={BentanayanLogo} alt="Bentanayan-logo" style={{width:400}} />
-                    <a href="https://bentanayan.com" rel="noopener noreferrer" target="_blank" className="btn btn-transparent-circular">Go to bentanayan.com</a>
+                    <a href="https://bentanayan.com" rel="noopener noreferrer" target="_blank" className="btn btn-transparent-circular" style={{fontWeight:300}}>Go to bentanayan.com</a>
                   </div>
                 </div>
               </div>
@@ -137,8 +139,8 @@ export default class Index extends React.Component{
         </div>
         <div className="container" style={{marginTop:120, marginBottom:120}}>
           <div className="col-md-12 text-center">
-            <h1>Interested in Unified Products and Services?</h1><br/><br/>
-            <a href="/" className="btn btn-blue-circular"><h3>See Unified Packages Now!</h3></a>
+            <h1  style={{fontWeight:300}}>Interested in Unified Products and Services?</h1><br/><br/>
+            <a href="/" className="btn btn-blue-circular"  style={{fontWeight:200}}><h3>See Unified Packages Now!</h3></a>
           </div>
         </div>
       </div>

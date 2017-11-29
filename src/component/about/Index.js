@@ -28,7 +28,7 @@ export default class About extends React.Component{
             </div>
           </div>
         </div>
-        <div className="container-fluid text-center" style={{backgroundColor:'#002b80', color:'#FFFFFF'}}>
+        <div className="container-fluid text-center bg-u-dark" style={{ color:'#FFFFFF'}}>
           <div className="container" style={{marginBottom:50, marginTop:50}}>
             <div className="row">
               <div className="col-md-offset-2 col-md-3">
@@ -68,13 +68,13 @@ export default class About extends React.Component{
                 </div>
                 <div className="col-md-4">
                   <img src={Logo} className="img-responsive img-circle" alt="logo" />
-                  <h3>Farrah Pascual</h3>
+                  <h3><b>Farrah Pascual</b></h3>
                   <h4>Finance</h4>
                 </div>
                 <div className="col-md-4">
                   <img src={Logo} className="img-responsive img-circle" alt="logo" />
                   <h3><b>Lea Dimaculangan</b></h3>
-                  <h4><b>Operations Manager</b></h4>
+                  <h4>Operations Manager</h4>
                 </div>
               </div>
             </div>

@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
 @font-face {
   font-family: 'DharmaGothicLight';
   font-style: normal;
   font-weight: normal;
   src: url('../../assets/fonts/dharma-ghotic/DharmaGothicE_Light_I.otf') format('truetype');
 }
+
 body {
   margin: 0px 0 0 0;
   padding: 0;
@@ -12,4 +13,10 @@ body {
 }
 .border{
   border: 1px solid #000000
+}
+.txt-u-lb{
+  color:#20a0ff
+}
+.bg-u-dark{
+  background-color: #1F354F
 }
